@@ -1,0 +1,31 @@
+{
+  "name": "nodejs-express-mongodb",
+  "version": "1.0.0",
+  "description": "Appication with Node.js Exspress MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "build": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "node.js",
+    "node",
+    "node-js",
+    "nodejs",
+    "express",
+    "mongo",
+    "mongodb",
+    "mongo-db"
+  ],
+  "author": "Aliaksandr Lazarau <aliaksandr_lazarau@epam.com>",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.4",
+    "mongoose": "^5.9.12"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
